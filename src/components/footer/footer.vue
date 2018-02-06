@@ -3,7 +3,7 @@
       <router-link tag="div"  v-for="(item,index) in navArr" :to="item.to">
         <span class="foot_span" >
           <i :class="isSelect===item.to? item.isActive:item.noActive"></i>{{item.title}}
-        </span>
+        </span>123
       </router-link>
     </div>
 </template>
